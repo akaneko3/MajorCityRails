@@ -1,0 +1,17 @@
+table
+  caption #{city.name}のデータ
+  tr
+    th 指定日
+    td = city.designated.strftime('%Y 年 %-m 月 %-d 日')
+  tr
+    th 地方
+    td = city.prefecture.district.name
+  tr
+    th 都道府県
+    td = city.prefecture.name
+  tr
+    th 面積
+    td #{number_with_delimiter(city.area)}km&sup2;
+  tr
+    th 人口
+    td #{number_with_delimiter(city.population)}人

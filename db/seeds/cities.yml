@@ -1,0 +1,121 @@
+cities:
+  -
+    name: '札幌市'
+    prefecture_id: 1
+    designated: '1972-04-01'
+    area: 1121.12
+    population: 1921245
+  -
+    name: '仙台市'
+    prefecture_id: 4
+    designated: '1989-04-01'
+    area: 785.85
+    population: 1049493
+  -
+    name: 'さいたま市'
+    prefecture_id: 11
+    designated: '2003-04-01'
+    area: 217.49
+    population: 1229479
+  -
+    name: '千葉市'
+    prefecture_id: 12
+    designated: '1992-04-01'
+    area: 272.08
+    population: 963120
+  -
+    name: '横浜市'
+    prefecture_id: 14
+    designated: '1956-09-01'
+    area: 437.38
+    population: 3691693
+  -
+    name: '川崎市'
+    prefecture_id: 14
+    designated: '1972-04-01'
+    area: 142.7
+    population: 1430773
+  -
+    name: '相模原市'
+    prefecture_id: 14
+    designated: '2010-04-01'
+    area: 328.83
+    population: 719412
+  -
+    name: '新潟市'
+    prefecture_id: 15
+    designated: '2007-04-01'
+    area: 726.1
+    population: 812458
+  -
+    name: '静岡市'
+    prefecture_id: 22
+    designated: '2005-04-01'
+    area: 1411.85
+    population: 714513
+  -
+    name: '浜松市'
+    prefecture_id: 22
+    designated: '2007-04-01'
+    area: 1558.04
+    population: 798924
+  -
+    name: '名古屋市'
+    prefecture_id: 23
+    designated: '1956-09-01'
+    area: 326.43
+    population: 2266517
+  -
+    name: '京都市'
+    prefecture_id: 26
+    designated: '1956-09-01'
+    area: 827.9
+    population: 1473416
+  -
+    name: '大阪市'
+    prefecture_id: 27
+    designated: '1956-09-01'
+    area: 223.0
+    population: 2670579
+  -
+    name: '堺市'
+    prefecture_id: 27
+    designated: '2006-04-01'
+    area: 149.99
+    population: 842685
+  -
+    name: '神戸市'
+    prefecture_id: 28
+    designated: '1956-09-01'
+    area: 552.26
+    population: 1544496
+  -
+    name: '岡山市'
+    prefecture_id: 33
+    designated: '2009-04-01'
+    area: 789.92
+    population: 710913
+  -
+    name: '広島市'
+    prefecture_id: 34
+    designated: '1980-04-01'
+    area: 905.41
+    population: 1177711
+  -
+    name: '北九州市'
+    prefecture_id: 40
+    designated: '1963-04-01'
+    area: 488.78
+    population: 974287
+  -
+    name: '福岡市'
+    prefecture_id: 40
+    designated: '1972-04-01'
+    area: 341.7
+    population: 1479433
+  -
+    name: '熊本市'
+    prefecture_id: 43
+    designated: '2012-04-01'
+    area: 389.54
+    population: 736010

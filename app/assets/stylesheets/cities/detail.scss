@@ -1,0 +1,19 @@
+@mixin column($fc, $bgc) {
+  color: $fc;
+  font-size: 14pt;
+  text-align: left;
+  background-color: $bgc;
+}
+
+caption { color: slateblue; }
+
+th {
+  @include column(lavender, slateblue);
+}
+
+td {
+  @include column(slateblue, lavender);
+  width: 180px;
+}
+
+p { text-align: center; }

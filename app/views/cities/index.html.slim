@@ -1,0 +1,19 @@
+- content_for :title do
+  | 日本の政令指定都市
+- content_for :style do
+  = stylesheet_link_tag 'cities/list', media: 'all'
+table border=1
+  caption 日本の政令指定都市
+  thead
+    tr
+      th No.
+      th 都道府県
+      th 都市名
+      th
+  tbody
+    - @cities.each do |city|
+      tr
+        td.no = city.id
+        td.pref = city.prefecture.name
+        td.name = city.name
+        td.button = button_to '詳細', city_path(city.id), method: :get
