@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170324224434) do
+ActiveRecord::Schema.define(version: 20170502002933) do
 
   create_table "cities", force: :cascade do |t|
-    t.string  "name",                                  null: false
-    t.integer "prefecture_id",                         null: false
-    t.date    "designated",                            null: false
-    t.decimal "area",          precision: 7, scale: 2, null: false
-    t.integer "population",                            null: false
+    t.string "name", null: false
+    t.integer "prefecture_id", null: false
+    t.date "designated", null: false
+    t.decimal "area", precision: 7, scale: 2, null: false
+    t.integer "population", null: false
     t.index ["prefecture_id"], name: "index_cities_on_prefecture_id"
   end
 
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20170324224434) do
   end
 
   create_table "prefectures", force: :cascade do |t|
-    t.string  "name",        null: false
+    t.string "name", null: false
     t.integer "district_id", null: false
     t.index ["district_id"], name: "index_prefectures_on_district_id"
   end
