@@ -11,6 +11,12 @@ tbody tr {
   &:nth-child(even) { background-color: lavender; }
 }
 
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
 td {
   text-align: left;
   &.no { width: 30px; }
