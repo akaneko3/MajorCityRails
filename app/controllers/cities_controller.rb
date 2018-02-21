@@ -2,7 +2,7 @@ class CitiesController < ApplicationController
   respond_to :html, :xml, :json
 
   def index
-    @cities = City.all.includes(:prefecture)
+    @cities = City.includes(:prefecture).all
     respond_with @cities,
                  include: {
                    prefecture: {
