@@ -8,8 +8,8 @@ class CitiesController < ApplicationController
                    prefecture: {
                      include: { district: { only: :name } },
                      only: :name
-                   }
-                 },
+                        }
+                      },
                  only: [:id, :name, :designated, :area, :population]
   end
 
